@@ -1,6 +1,9 @@
 # Udacity Data Structures and Algorithms Nanodegree
 
-This repository contains the 3 projects I completed to attain my Data Structure and Algorithms Nanodegree from Udacity.
+This repository contains the 4 projects I completed to attain my Data Structure and Algorithms Nanodegree from Udacity.
+
+## Project 0
+This project serves as an introduction to data structure and a refresher project for python.
 
 ## Project 1
 This project covers the foundations of Data Structures including Arrays, Linked Lists, Queues, Recursion, Trees, Maps, and Hashing.
