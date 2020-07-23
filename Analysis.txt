@@ -1,0 +1,36 @@
+###Task 0###
+
+List is represented as array. Time required to access any element in array is O(1).
+
+Worst Case Big-O = O(1)
+
+###Task 1###
+
+Iterator have O(n) time complexity where n is number of elements in the list. 
+Two seprate for loops are used to get total count of unique phone numbers from record.
+Each for loop goes through 7 instructions. Time complexity is 7O(n) + 7O(n) = 14*O(n)
+
+Worst-Case Big-O = O(n)
+
+###Task 2###
+
+As explained above, time complexity for signle for loop is O(n) to find phone number who spent longest time duration. 
+This loop goes through 4 instructions. Time complexity is 4*O(n)
+
+Worst Case Big-O = O(n)
+
+###Task 3###
+
+Because of 2 for loops been used the time complexity is O(n^2).
+Worst Case Big-O = O(n^2)
+
+###Task 4###
+
+To access all phone numbers from texts list, for loop need to go through all the rows.
+Time complexity of set function is O(constant). At the end sort() method is used on phone numbers, to print telemarkater phone numbers in lexicographic order.
+O(n): the four list comprehensions take O(n) complexity each. O(4n) => O(n)
+O(n): for loop takes O(n) time complexity
+O(nlogn): sorting takes O(nlogn)
+O(n): for loop printing sorted list
+Total time complexity: O(n + n + nlogn + n) => O(3n + nlogn) => O(nlogn)
+Worst Case Big-O = O(nlog(n))
